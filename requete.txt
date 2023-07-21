@@ -1,0 +1,4 @@
+SELECT Client.Nom,Client.ID
+FROM Client,Appel,Secteur
+WHERE Client.ID=Appel.IDClient
+AND Client.ID>123339
